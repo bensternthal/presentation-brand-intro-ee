@@ -1,6 +1,6 @@
 // Require Node modules in the browser thanks to Browserify: http://browserify.org
 var bespoke = require('bespoke'),
-  bespokeMozillaTheme = require('bespoke-theme-bespoke-mozilla-theme');
+  mozillaSandstone = require('bespoke-theme-mozilla-sandstone');
   keys = require('bespoke-keys'),
   touch = require('bespoke-touch'),
   bullets = require('bespoke-bullets'),
@@ -11,7 +11,7 @@ var bespoke = require('bespoke'),
 
 // Bespoke.js
 bespoke.from('article', [
-  bespokeMozillaTheme(),
+  mozillaSandstone(),
   keys(),
   touch(),
   bullets('li, .bullet'),

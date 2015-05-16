@@ -15,3 +15,6 @@ Then, install dependencies and run the preview server:
 $ npm install && bower install
 $ gulp serve
 ```
+
+## GH Pages URL Example
+http://bensternthal.github.io/presentation-brand-intro-ee/
