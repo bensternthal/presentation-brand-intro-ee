@@ -25,20 +25,6 @@ html
           li Foster community based participation in our work.
           li Uphold the values outlined in the Manifesto.
 
-
-      section
-        h2.bullet How We Measure Success 
-        ul
-          li We are a service team. Most of our goals are inherited from other team's goals.
-          li Example: PMM wants to increase Android downloads 5.6% -- We implement a page in support of that goal.
-          li Internally we focus on:
-          ul
-            li Getting projects built and out the door.
-            li Providing innovative technical solutions, and serving as technical advisors.
-            li Technical performance of our code and systems.
-            li Enabling participation from the community on our projects.
-            li Evolving our process.
-
       section
         h2 Our Team
 
@@ -97,10 +83,24 @@ html
         h3 Silver Orange
 
       section
+        h2.bullet How We Measure Success 
+        ul
+          li We are a service team. Many of our goals are inherited from other team's goals.
+          li Example: PMM wants to increase Android downloads 5.6% -- We implement a page in support of that goal.
+          li Internally we focus on:
+          ul
+            li Getting projects built and out the door.
+            li Providing innovative technical solutions, and serving as technical advisors.
+            li Technical performance of our code and systems.
+            li Enabling participation from the community on our projects.
+            li Evolving our process.
+
+      section
         h2.bullet What We Do . . .
         ul
-          li Websites (mozilla.org, mobilepartners.mozilla.org)
-          li Services (basket, snippets)
+          li Websites (mozilla.org, mobilepartners.mozilla.org).
+          li Services (basket, snippets).
+          li Support / Maintenance / Feature Development for the above.
 
       section
         p.small
@@ -137,9 +137,9 @@ html
       section
         h2 Key Processes
         ul
-          li Mix of Kanban & Agile Sprints
+          li Mostly Kanban With Agile-ish Mixed In For Fixed Deadline Projects
           li Perhaps you should read my <a href="https://blog.mozilla.org/webdev/2013/06/28/kanban-web-productions-lessons-learned/">blog post</a>.
-          li Creative Process
+          li Creative Process (We Work With These Folks A Lot):
             ul
               li Currently: PSD -> Revision -> PSD -> Code -> Done
               li Moving to Prototype based iteration.
@@ -147,36 +147,36 @@ html
       section
         h2 Key Tools
         p.small
-         | <a href="">clearly.io</a> - whose on what?
+         | <a href="http://clearly.io/">Clearly.io</a> - whose on what?
         p.small
-         | <a href="">bugzilla</a> - what are we doing?         
+         | <a href="http://bugzilla.mozilla.org/">Bugzilla</a> - what are we doing?         
         p.small
-         | <a href="">kanbanery</a> - when are we doing it?
+         | <a href="http://kanbanery.com/">Kanbanery</a> - when are we doing it?
         p.small
-         | <a href="">github</a> - code, all public all the time (mostly)
+         | <a href="https://github.com/">Github</a> - code, all public all the time (mostly)
         p.small
-         | <a href="">readthedocs</a> - documentation
+         | <a href="http://readthedocs.org/">Read The Docs</a> - documentation
         p.small
-         | <a href="">wikimo</a> - documentation         
+         | <a href="http://wiki.mozilla.org/">wiki.mozilla.org</a> - documentation         
         p.small
-         | <a href="">new relic</a> - health of applications & performance monitoring
+         | <a href="http://newrelic.com">New Relic</a> - health of applications & performance monitoring
         p.small
-         |  <a href="">travis</a> & <a href="">jenkins</a> continuous integration
+         |  <a href="http://travis-ci.org/">Travis</a> & <a href="https://jenkins-ci.org/">Jenkins</a> continuous integration
         p.small
-         | <a href="">google analytics</a> - traffic
+         | <a href="http://www.google.com/analytics">Google Analytics</a> - traffic
         p.small
-         | <a href="">irc</a> - communication, bots!
+         | <a href="https://wiki.mozilla.org/IRC">IRC</a> - communication, bots!
 
-      section
-        h2.bullet Our Stack
-        ul
-          li Infra - Currently WebOps, Mozilla Hosted
-          li Infra -  Moving Towards Docker, Deis, Heroku and AWS
-          li Perhaps you should read our <a href="https://docs.google.com/document/d/13VLzaYq6-cJfFhoGDTA4qYZ4X9E4KhM6f9UHnRuB2MM/edit">roadmap</a>. 
-          li Code
-            ul The Usual Suspects Plus . . .
-              li Python, Django, Sugardough - Backend
-              li Node - automation, minification, testing
+      //- section
+      //-   h2.bullet Our Stack
+      //-   ul
+      //-     li Infra - Currently WebOps, Mozilla Hosted
+      //-     li Infra -  Moving Towards Docker, Deis, Heroku and AWS
+      //-     li Perhaps you should read our <a href="https://docs.google.com/document/d/13VLzaYq6-cJfFhoGDTA4qYZ4X9E4KhM6f9UHnRuB2MM/edit">roadmap</a>. 
+      //-     li Code
+      //-       ul The Usual Suspects Plus . . .
+      //-         li Python, Django, Sugardough - Backend
+      //-         li Node - automation, minification, testing
 
       section
         h2.bullet Folks We Rely On
@@ -193,51 +193,93 @@ html
 
 
       section
-        h2.bullet Q1 Highlights
-          ul
-            li Firefox Hello - /whatsnew / firstrun / Onboarding
-            li Android What's New
-            li Everything From Jennifer Bertsch's Slides :)
-            li Materfirefox - launch and proof of concept for docker and deis.
-            li Shape Of The Web 
-            li Spring Campaign
+        h2 Q1 Highlights
+        table.nice-table
+          tr
+            th Product
+            th Initiative
+          tr
+            td  Firefox
+            td  Spring Campaign
+                <br>Family Page & Navigation
+                <br>Hello /whatsnew / firstrun/ onboarding
+                <br>FF Android What's New
+          tr
+            td  Firefox OS
+            td  MobilePartners - Ongoing Support
+                <br>Materfirefox - Launch and proof of concept for docker and deis.          
+                <br>MWC Support & Firefox OS Page
+          tr
+            td  Mozilla
+            td  Smart On
+                <br>Shape Of The Web
+                <br> Snippet Sec Audit / New Features / Ongoing Support
 
+      section
+        h2 Q1 Highlights (Continued)
+        table.nice-table  
+        table.nice-table
+          tr
+            th Product
+            th Initiative                     
+          tr
+            td  Internal
+            td  Deis / Docker Proof Of Concept Site Launched
+                <br>Discussions Across Moz WebDev On AWS Migration/Hosting
+                <br>Development of First Technical Roadmap For Our Team
+                <br>
       section
         h2.bullet Q1 Takeaways
           ul
             li Spring campaign plan was not in sync with the reality of FF product development.
-            li The Above --> It Rolls Downhill
-            li L10N - we are stressing that community. It's not good.
+            li L10N - we are stressing that community. It's not great.
             li WebDev Across Org In Flux - Move to Cloud - Folks Developing Multiple Solution.
             li WebOps challenged, high turnover, resource constrained.
             li Shape of The Web - much stricter guidance and oversight needed when working with 3rd parties.
             li Engagement engineering benefits from prioritizing engineering goals alongside marketing goals.
 
-      section
-        h2.bullet Q2 Overview
-          ul
-            li Get Spring Campaign Out The Door!
-            li Everything From Jenn Bertsch's Slides :)
-            li Finalize Infra plan and begin rollout with IT and Cloud Services.
-            li Plan for PHX1 Exit, this could be big.
-            li Provide expertise for CRM and Snippet projects.
-            li Pay Down Technical Debt - Mozilla.org.
-            li Roll Out Front End Testing Framework.  
-            li Prototyping process with creative outlined.      
 
       section
-        h2.bullet Challenges
-          ul
-            li Brand has the fewest number of technical resources of any WebDev team at Mozilla. No staff ops positions.
-            li PMMS - Communication & Planning.
-            li Perception that we are focusing less on community and Mozilla values.
-            li Sacrificing quality for speed.
+        h2 Q2 Overview
+        table.nice-table
+          tr
+            th Product
+            th Initiative
+          tr
+            td  Firefox
+            td  Spring Campaign Launch and Followup 
+                <br>Everything From Jenn Bertsch's Slides (iOS, Content Redesign)
+                <br>Firefox Affiliates Shutdown Plan
+          tr
+            td  Firefox OS
+            td  None at this time.
+          tr
+            td  Mozilla
+            td   Prototyping process with creative outlined.
+                <br>Pay Down Technical Debt - Mozilla.org.
+                <br>Provide expertise for CRM and Snippet projects.  
+                <br>Shape Of The Web Support / Long Term Plan
+                <br>Support Smart On Series Development
+          tr
+            td  Internal
+            td  Finalize Infra plan and begin rollout with IT and Cloud Services.
+                <br>Plan for PHX1 Exit (this could be big).
+                <br>Roll Out Front End Testing Framework.                              
 
+      section
+        h2.bullet Q2 Challenges
+          ul
+            li Brand has no staff ops positions. 
+            li WebOps platform not clear, at least not communicated.
+            li PHX1 Exit Could Be Disruptive
+            li PMMS - Communication / Planning. / Goal Setting
+            li Balancing community and Mozilla values with the needs of our Stakeholders
+        
       section
         h2.bullet Asks
           ul
-            li Dive into spring campaign & product development -- apply lessons to fall campaign.
-            li Work with L10N team on improving things.
+            li Deep Dive / retrospective into spring campaign & product development -- apply lessons to fall campaign.
+            li Work with L10N team on improving things (Offsite).
             li Empower individuals to take ownership and make decisions. Push decision making "out" not "up". 
                           
       section
